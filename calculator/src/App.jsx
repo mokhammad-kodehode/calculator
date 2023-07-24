@@ -37,7 +37,7 @@ function App() {
           </form>
 
           <div className="keypad">
-            <button className='clear' onClick={clear}>Clear</button>
+            <button className='clear' onClick={clear}>Reset</button>
             <button className='keypad_orange' onClick={procentCalculate} name="%">%</button>
             <button className='keypad_orange' name="/" onClick={handleClick}>&divide;</button>
             <button  name="7" onClick={handleClick}>7</button>
